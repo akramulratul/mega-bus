@@ -64,7 +64,7 @@ bookingBtn.addEventListener('click', function(){
 
     const economyClassPrice = document.getElementById('economyClassPrice');
     economyClassPrice.innerText = economyTicketCount * 100;
-
+// Total Price In Table
     const total = document.getElementById('totalPrice');
     const totalPrice = firstClassTicketCount * 150 + economyTicketCount * 100;
     const totalPriceWithTax = totalPrice * 0.1;
