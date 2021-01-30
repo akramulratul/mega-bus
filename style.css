@@ -139,6 +139,11 @@ a.active {
   display: none;
   text-align: center;
   color: white;
+  background: url("images/bus.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
 }
 table {
   border-collapse: collapse;
