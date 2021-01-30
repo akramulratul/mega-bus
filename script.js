@@ -40,7 +40,7 @@ function ticketInput(product) {
     const ticketCount = parseInt(ticketInput.value);
     return ticketCount;
 }
-// Booking Button Even Handeler
+// Booking Button Even Handler
 const bookingBtn = document.getElementById('booking');
 bookingBtn.addEventListener('click', function(){
     const details = document.getElementById('details');
